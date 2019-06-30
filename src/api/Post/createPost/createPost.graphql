@@ -10,5 +10,6 @@ type Mutation {
     prizeDate: String!
     contribution: String!
     belongTo: String
+    eventName: String
   ): Post!
 }

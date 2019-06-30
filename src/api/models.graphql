@@ -33,6 +33,7 @@ type Post {
   prizeDate: String!
   contribution: String!
   belongTo: String
+  eventName: String
   createdAt: String
   updatedAt: String
 }

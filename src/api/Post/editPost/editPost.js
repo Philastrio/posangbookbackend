@@ -19,7 +19,8 @@ export default {
         prizeRank,
         prizeDate,
         contribution,
-        belongTo
+        belongTo,
+        eventName
       } = args;
       const { user } = request;
       const post = await prisma.$exists.post({ id, user: { id: user.id } });
@@ -35,7 +36,8 @@ export default {
               prizeRank,
               prizeDate,
               contribution,
-              belongTo
+              belongTo,
+              eventName
             },
             where: { id }
           });

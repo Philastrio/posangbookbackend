@@ -16,7 +16,8 @@ export default {
         prizeRank,
         prizeDate,
         contribution,
-        belongTo
+        belongTo,
+        eventName
       } = args;
 
       const post = await prisma.createPost({
@@ -30,7 +31,8 @@ export default {
         prizeRank,
         prizeDate,
         contribution,
-        belongTo
+        belongTo,
+        eventName
       });
 
       return post;

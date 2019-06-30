@@ -14,7 +14,8 @@ export default {
             { prizeRank_contains: args.term },
             { prizeDate_contains: args.term },
             { contribution_contains: args.term },
-            { belongTo_contains: args.term }
+            { belongTo_contains: args.term },
+            { eventName_contains: args.term }
           ]
         }
       })

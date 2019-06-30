@@ -18,3 +18,8 @@ Building Analog PosangBook into Digital Webpage with Graphql-Yoga + Prisma + Rea
 - [ ] Create Admin
 - [ ] editAdmin
 - [ ] Create Permisssion Layer // 사이트 완성후 추후 작업
+
+# 주의
+
+prizeCategory: 행사이름
+prizeContribution:
