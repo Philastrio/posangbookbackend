@@ -12,7 +12,7 @@ Building Analog PosangBook into Digital Webpage with Graphql-Yoga + Prisma + Rea
 - [x] requestSecret
 - [x] passport, passport-jwt, email authentication
 - [x] middleware / isAuthenticated
-- [x] searchUser / searchPost
+- [x] searchUser / searchPost /
 - [x] editPost
 - [ ] editUser
 - [ ] Create Admin
