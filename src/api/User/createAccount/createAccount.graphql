@@ -5,5 +5,5 @@ type Mutation {
     position: String!
     belongTo: String!
     Rank: String
-  ): User!
+  ): Boolean!
 }
