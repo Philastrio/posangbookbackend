@@ -16,6 +16,7 @@ type User {
   Rank: String 
   posts: [Post!]! @relation(name: "UserOfPosts", onDelete: CASCADE)
   loginSecret: String
+  token: String
   createdAt: DateTime! @createdAt
   updatedAt: DateTime! @updatedAt
 }

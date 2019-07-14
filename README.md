@@ -14,7 +14,7 @@ Building Analog PosangBook into Digital Webpage with Graphql-Yoga + Prisma + Rea
 - [x] middleware / isAuthenticated
 - [x] searchUser / searchPost /
 - [x] editPost
-- [ ] Auth를 서버차원에서 확인하고, 헤드화면으로 넘겨주기는 것을 만들어야 함. 
+- [ ] Auth를 서버차원에서 확인하고, 헤드화면으로 넘겨주기는 것을 만들어야 함.
       client에서 token을 임의로 수정하면 그냥 로그인이 되는 문제가 있음.
 - [ ] editUser
 - [ ] Create Admin
@@ -25,3 +25,4 @@ Building Analog PosangBook into Digital Webpage with Graphql-Yoga + Prisma + Rea
 
 prizeCategory: 행사이름
 prizeContribution:
+token을 local에 저장하니까 로그인을 2번해야 인증되기에 이를 해결하기 위해서 token을 서버에 저장함

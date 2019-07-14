@@ -17,6 +17,7 @@ type User {
   posts: [Post!]!
   loginSecret: String
   isSelf: Boolean! #prisma에는 등록안하고 여기에만 한다. 대신 computed.js(User.js)에 적어준다.
+  token: String
   createdAt: String
   updatedAt: String
 }
