@@ -1,3 +1,0 @@
-type Mutation {
-  logUserIn(token: String): Boolean!
-}
